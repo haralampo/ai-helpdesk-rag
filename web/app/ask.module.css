@@ -1,0 +1,59 @@
+.askContainer {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.askHeading {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.askSubtext {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.askInputRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.askInput {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+}
+
+.askButton {
+  padding: 0.75rem 1.25rem;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+.askButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.askResponseContainer {
+  margin-top: 2rem;
+}
+
+.askError {
+  color: crimson;
+}
+
+.askSectionTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.askPre {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
